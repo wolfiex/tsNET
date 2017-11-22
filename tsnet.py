@@ -1,5 +1,7 @@
 #!/bin/python3
 
+from __future__ import print_function
+
 if __name__ == '__main__':
     from argparse import ArgumentParser
     parser = ArgumentParser(description='Read a graph, and produce a layout with tsNET(*).')

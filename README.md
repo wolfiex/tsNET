@@ -28,9 +28,11 @@ optional arguments:
 
 # Dependencies
 
-* `python3`
+* `python3` or 2 with future import
 * [`numpy`](http://www.numpy.org/)
 * [`matplotlib`](https://matplotlib.org/)
 * [`graph-tool`](https://graph-tool.skewed.de/)
+    ./configure CC='icc -std=c++14' CXX='icpc -std=c++14'
+
 * [`theano`](http://deeplearning.net/software/theano/)
 * [`scikit-learn`](http://scikit-learn.org/stable/)
